@@ -1,8 +1,8 @@
 import React from "react";
-
+import './Turn.css'
 function Turn(){
     return(
-        <div>
+        <div className="turn">
             <div>X</div>
             <div>O</div>
         </div>
