@@ -114,4 +114,18 @@
     margin-top: 20px;
     display: none;
   }
+.total-container{
+  /* gap: 5px; */
+  font-size: 1.6rem;
+  font-weight: 700;
+  grid-template-rows: auto auto;
+  position: relative;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  position: relative;
+}
   
