@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './index.css'
 import Board from './components/Board'
 import Score from './components/Score'
 import Turn from './components/Turn'

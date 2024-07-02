@@ -1,13 +1,17 @@
 import React from "react";
-import './Turn.css'
-function Turn(){
-    return(
-        <div className="turn">
-            <div>X</div>
-            <div>O</div>
-        </div>
-    )
+
+function Turn() {
+  return (
+    <div className="turn-container">
+      <h3>Turn For:</h3>
+      <div className="turn-box align" id="turnX">
+        X
+      </div>
+      <div className="turn-box align" id="turnO">
+        O
+      </div>
+    </div>
+  );
 }
 
-
-export default Turn
+export default Turn;
